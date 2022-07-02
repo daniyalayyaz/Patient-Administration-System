@@ -61,13 +61,14 @@
     /* border: 2px solid #E6E6E6;
     border-radius: 10px; */
 }
-.ActionBtn{
+
+.ActionBtn {
     background-color: #00A3A2;
     color: white;
     border-radius: 10px;
-    width: 100%;
 }
+
 table {
     border-collapse: separate;
-    border-spacing: 5px 10px;
-  }
+    border-spacing: 10px 10px;
+}
