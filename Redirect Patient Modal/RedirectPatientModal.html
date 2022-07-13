@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d58e49b8e9.js" crossorigin="anonymous"></script>
+
+    <!--Custom CSS-->
+    <link href="RedirectPatientModal.css" rel="stylesheet">
+    <title>Redirect Patient Modal</title>
+</head>
+<body>
+    <!-- Button trigger modal -->
+<div style="text-align: center;">    
+<button type="button" class="btn launchbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch Redirect Modal
+  </button>
+</div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Redirect Patient</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <button type="button" class="btn InternalBtn">Redirect Internally</button>
+                </div>
+                <div class="col-md-6">
+                    <button type="button" class="btn ExternalBtn">Redirect Externally</button>
+                </div>
+            </div>        
+        </div>
+      </div>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+</html>

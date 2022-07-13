@@ -1,0 +1,39 @@
+.launchbtn{
+    background-color: #00A3A2;
+    color: white;
+    border-radius: 10px;
+    font-size: 500;
+    margin-top: 300px
+}
+.InternalBtn{
+    background-color: #00A3A2;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    font-weight: 500;
+}
+.ExternalBtn{
+    border: 2px solid #00A3A2;
+    color: #00A3A2;
+    border-radius: 10px;
+    width: 100%;
+    font-weight: 500;
+}
+.modal-title{
+    color: #979797;
+}
+.InternalBtn:hover{
+    border: 2px solid #00A3A2;
+    color: #00A3A2;
+    border-radius: 10px;
+    width: 100%;
+    font-weight: 500;
+    background-color: white;
+}
+.ExternalBtn:hover{
+    background-color: #00A3A2;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    font-weight: 500;
+}
